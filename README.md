@@ -4,7 +4,9 @@ Robotic solar powered surfboard propelled by the BlueRobotics T100 Thruster.
 
 ## Overview
 
-what and why
+The SolarSurfer is robotic surfboard propelled by two T100s. It will be launched from the coast of California on a 2,500 mile journey to Hawaii. It will complete the three-month trip completely autonomously.
+
+Cause why not.
 
 ## Hardware
 
@@ -22,6 +24,12 @@ The following hardware is used:
 
 ## Infrastructure
 
-SolarSurfer, Iridium, RockBlock servers, BlueRobotics data API, Commander and Vizualizer
+The complete SolarSurfer system has many moving parts. These include:
 
-TODO: add graphic of how these things connect together
+* SolarSurferMessage - a custom message format and encoding/decoding library for JavaScript and C
+* SolarSurferCore - the embedded software running on the SolarSurfer; requires SolarSurferMessage
+* SolarSurferAPI - an API that sends, receives, and stores SolarSurfer messages; requires SolarSurferMessage for automated encoding and decoding
+* SolarSurferCommander - a private app to review telemetry and build command messages
+* SolarSurferCommander - a public app to view telemetry in an engaging format
+
+![Infrastructure](SolarSurfer Infrastructure.png)
