@@ -23,3 +23,5 @@ The following hardware is used:
 ## Infrastructure
 
 SolarSurfer, Iridium, RockBlock servers, BlueRobotics data API, Commander and Vizualizer
+
+TODO: add graphic of how these things connect together
