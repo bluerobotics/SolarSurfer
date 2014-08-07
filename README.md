@@ -42,6 +42,12 @@ The complete SolarSurfer system has many moving parts. These include:
 * Testing autonomous control via SolarSurferCore
 * Testing end-to-end telemetry with SolarSurferCore, SolarSurferAPI, and SolarSurferCommander
 
+### 2014/08/07 - Malibu Prep Test
+
+* Dry land test with thruster in a tank
+* Evaluating solar performance
+* Testing end-to-end telemetry with SolarSurferCore, SolarSurferAPI, and SolarSurferCommander
+
 ### 2014/07/17 - Marina del Rey Test 2
 
 * Testing autonomous control via SolarSurferCore
