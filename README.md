@@ -33,3 +33,26 @@ The complete SolarSurfer system has many moving parts. These include:
 * SolarSurferCommander - a public app to view telemetry in an engaging format
 
 ![Infrastructure](SolarSurfer Infrastructure.png)
+
+## Test History
+
+### 2014/08/08 - Malibu Test
+
+* First test in open ocean
+* Testing autonomous control via SolarSurferCore
+* Testing end-to-end telemetry with SolarSurferCore, SolarSurferAPI, and SolarSurferCommander
+
+### 2014/07/17 - Marina del Rey Test 2
+
+* Testing autonomous control via SolarSurferCore
+* Complete two successful figure eights!
+
+### 2014/06/28 - Marina del Rey Test 1
+
+* First integrated test in a large body of water
+* Manual control w/ Aurora 9 TX
+
+### 2014/06/23 - Pool Test
+
+* Tested thrusters mounted on surf board for the first time
+* Manual control w/ Aurora 9 TX
