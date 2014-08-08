@@ -36,13 +36,13 @@ The complete SolarSurfer system has many moving parts. These include:
 
 ## Test History
 
-### 2014/08/08 - Malibu Test
+### 2014/08/08 - Santa Monica Canyon Test
 
 * First test in open ocean
 * Testing autonomous control via SolarSurferCore
 * Testing end-to-end telemetry with SolarSurferCore, SolarSurferAPI, and SolarSurferCommander
 
-### 2014/08/07 - Malibu Prep Test
+### 2014/08/07 - Santa Monica Canyon Prep
 
 * Dry land test with thruster in a tank
 * Evaluating solar performance
