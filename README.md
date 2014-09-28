@@ -22,6 +22,7 @@ The following hardware is used:
 ## Electrical
 
 * [3DR APM 2.6](http://store.3drobotics.com/products/apm-2-6-kit-1)
+* [3DR Power Module](https://store.3drobotics.com/products/apm-power-module-with-xt60-connectors) for 5V power regulation and current monitoring
 * [3DR uBlox GPS with Compass](http://store.3drobotics.com/products/3dr-gps-ublox-with-compass) - for position tracking
 * [3DR Radio](http://store.3drobotics.com/products/3dr-radio) for short-range telemetry
 * [Hitec Optima 6 Rx](http://hitecrcd.com/products/aircraft-radios-receivers-and-accessories/2.4ghz-aircraft-receivers-modules/optima-6-6-channel-2.4ghz-receiver/product) for manual control
