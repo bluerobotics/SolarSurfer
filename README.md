@@ -33,7 +33,7 @@ The following hardware is used:
 * Water temperature sensor w/ one-wire interface
 * Airmar WS-100WX wind/temperature/pressure sensor
 
-![SolarSurfer Electrical](SolarSurfer Electrical.png)
+![SolarSurfer Electrical](SolarSurfer Electrical.jpg)
 
 ## Software
 
