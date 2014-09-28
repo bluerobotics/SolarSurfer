@@ -14,13 +14,17 @@ Note: The xml version of the embedded diagrams can be modified with [https://www
 
 The following hardware is used:
 
-* qty. 1 surfboard
+* qty. 1 8ft surfboard
 * qty. 1 custom weighted keel
 * qty. 2 [BlueRobotics T100](http://www.bluerobotics.com/thruster/) Thrusters
-* qty. 3 [Pelican 1150](http://www.amazon.com/Pelican-1150-Case-Camera-Yellow/dp/B00013J89K/ref=sr_1_4?ie=UTF8&qid=1411930700&sr=8-4&keywords=pelican+case) cases
+* qty. 2 BlueRobotics Basic ESCs
+* qty. 3 [Pelican 1200](http://www.amazon.com/Pelican-1200-Case-Camera-Black/dp/B0002INQT2) cases
 
 ## Electrical
 
+* 120 W SunPower Solar Panel for energy
+* Morningstar Solar Charge Controller for power regulation
+* 12V, 18Ah Sealed Lead Acid Battery
 * [3DR APM 2.6](http://store.3drobotics.com/products/apm-2-6-kit-1)
 * [3DR Power Module](https://store.3drobotics.com/products/apm-power-module-with-xt60-connectors) for 5V power regulation and current monitoring
 * [3DR uBlox GPS with Compass](http://store.3drobotics.com/products/3dr-gps-ublox-with-compass) - for position tracking
@@ -39,19 +43,23 @@ The following hardware is used:
 
 The complete SolarSurfer software system has many parts. These include:
 
-* SolarSurferMessage - a custom message format and encoding/decoding library for JavaScript and C++
-* SolarSurferCore - the embedded software running on the SolarSurfer; requires SolarSurferMessage
-* SolarSurferAPI - an API that sends, receives, and stores SolarSurfer messages; requires SolarSurferMessage for automated encoding and decoding
-* SolarSurferCommander - a private app to review telemetry and build command messages
-* SolarSurferCommander - a public app to view telemetry in an engaging format
+* [SolarSurferMessage](https://github.com/bluerobotics/SolarSurferMessage) - a custom message format and encoding/decoding library for JavaScript and C++
+* [SolarSurferCore](https://github.com/bluerobotics/SolarSurferCore) - the embedded software running on the SolarSurfer; requires SolarSurferMessage
+* [SolarSurferAPI](https://github.com/bluerobotics/SolarSurferAPI) - an API that sends, receives, and stores SolarSurfer messages; requires SolarSurferMessage for automated encoding and decoding
+* [SolarSurferCommander](https://github.com/bluerobotics/SolarSurferCommander) - a private app to review telemetry and build command messages
+* [SolarSurferInfographic](https://github.com/bluerobotics/SolarSurferInfographic) - a public app to view telemetry in an engaging format
 
 ![SolarSurfer Infrastructure](SolarSurfer Infrastructure.png)
 
 ## Test History
 
-### 2014/08/08 - Santa Monica Canyon Test
+### future - Ocean Test No. 4 (Malibu to Monterey)
 
-* First test in open ocean
+* tbd
+
+### 2014/08/08 - Ocean Test No. 3 (Santa Monica Canyon)
+
+* First test in open ocean, 20km distance traveled autonomously
 * Testing autonomous control via SolarSurferCore
 * Testing end-to-end telemetry with SolarSurferCore, SolarSurferAPI, and SolarSurferCommander
 
@@ -61,12 +69,12 @@ The complete SolarSurfer software system has many parts. These include:
 * Evaluating solar performance
 * Testing end-to-end telemetry with SolarSurferCore, SolarSurferAPI, and SolarSurferCommander
 
-### 2014/07/17 - Marina del Rey Test 2
+### 2014/07/17 - Ocean Test No. 2 (Marina del Rey)
 
 * Testing autonomous control via SolarSurferCore
 * Complete two successful figure eights!
 
-### 2014/06/28 - Marina del Rey Test 1
+### 2014/06/28 - Ocean Test No. 1 (Marina del Rey)
 
 * First integrated test in a large body of water
 * Manual control w/ Aurora 9 TX
