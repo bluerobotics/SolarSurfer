@@ -37,7 +37,7 @@ The following hardware is used:
 * Water temperature sensor w/ one-wire interface
 * Airmar WS-100WX wind/temperature/pressure sensor
 
-![SolarSurfer Electrical](SolarSurfer Electrical.jpg)
+![SolarSurfer Electrical](SolarSurfer%20Electrical.jpg)
 
 ## Software
 
@@ -49,7 +49,7 @@ The complete SolarSurfer software system has many parts. These include:
 * [SolarSurferCommander](https://github.com/bluerobotics/SolarSurferCommander) - a private app to review telemetry and build command messages
 * [SolarSurferInfographic](https://github.com/bluerobotics/SolarSurferInfographic) - a public app to view telemetry in an engaging format
 
-![SolarSurfer Infrastructure](SolarSurfer Infrastructure.png)
+![SolarSurfer Infrastructure](SolarSurfer%20Infrastructure.png)
 
 ## Test History
 
